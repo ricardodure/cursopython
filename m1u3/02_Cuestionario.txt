@@ -1,0 +1,175 @@
+1)///
+¿Qué tipo de objetos son mutables?
+
+
+a. Las listas, los diccionarios y los número solo cuando son enteros
+
+
+b. Las tuplas, los diccionarios y los sets
+
+
+c. Las listas, los diccionarios y los sets
+
+
+
+2)///
+
+¿Cómo se definen las listas?
+
+a. Las listas se definen entre llaves, separando cada elemento por una coma: 
+
+Ejemplo: 
+
+mi_lista={2, 'pera', True}
+
+
+
+
+b. Las listas se definen entre paréntesis, separando cada elemento por una coma: 
+
+Ejemplo: 
+
+mi_lista=(2, 'pera', True)
+
+
+
+c. Las listas se definen entre corchetes, separando cada elemento por una coma: 
+
+Ejemplo: 
+
+mi_lista=[2, 'pera', True]
+
+
+
+
+3)///
+
+
+
+¿Es posible que una lista pueda tener uno de sus elementos que a su vez sea una lista?
+
+Ejemplo:
+
+mi_lista=[
+
+              'pera',
+
+              3,
+
+              [4, 7, 9]
+
+]
+
+
+a. Si, se pueden realizar tantos anidamientos como necesitemos.
+
+
+b. Si, pero solo se permite un nivel de anidamiento.
+
+
+c. El anidamiento de listas solo es permitido cuando sus componentes son del mismo tipo de dato.
+
+
+d. No es posible anidar listas, solo tuplas. 
+
+
+4)///
+
+Partiendo de la siguiente frase:
+
+frase="¿Hola, como estas?"
+
+¿Cuál opción invierte la frase?
+
+a. print(frase [0::2])
+
+
+b. print(frase [-1::-1])
+
+
+c. print(frase [0:4:1])
+
+
+d. print(frase [::1])
+
+
+
+5)///
+
+¿Es necesario descargar el módulo os o el módulo sys para poder utilizarlos?
+
+
+a. Ambos módulo vienen en cada distribución de python por lo que no hay que preinstalarlos.
+
+
+b. Si, es necesario descargarlos con pip en windows y con pip3 en Mac o Linux
+
+
+c. Solo es necesario instalar con pip en windows o como pip3 en mac, el módulo os, pues sys por defecto viene preinstalado.
+
+6//////
+¿Es posible mediante splite tomar cada sección de una URL y guardarlas en una lista?
+
+
+a. No, split() solo permite separar strings tomados mediante input()
+
+
+b. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split('')
+
+
+c. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split('/')
+
+
+
+d. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split()
+
+
+6)///
+
+¿Es posible mediante splite tomar cada sección de una URL y guardarlas en una lista?
+
+
+a. No, split() solo permite separar strings tomados mediante input()
+
+
+b. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split('')
+
+
+c. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split('/')
+
+
+
+d. Si, dada la variable: 
+
+variable="https://sceu.frba.utn.edu.ar/e-learning/"
+
+Se pueden recuperar los valores de la siguiente forma:
+variable.split()
+
+
+
