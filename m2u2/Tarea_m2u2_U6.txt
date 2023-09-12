@@ -1,0 +1,15 @@
+TAREAS
+
+Estas tareas pueden intentar hacerlas hasta la clase del 5/9 en donde las vamos a hacer juntos paso a paso. Es conveniente que aún cuando no las puedan realizar solos, lo intentes, consulten todas las dudas en el foro y anoten las mismas para conversar durante la clase online. 
+
+TAREA 1
+
+A partir del ejercicio desafío de la unidad anterior cree una aplicación que permita realizar un alta de registros en un diccionario dentro de la app
+
+TAREA 2
+
+A partir del ejercicio desafío de la unidad anterior cree una aplicación que permita realizar un alta de registros en la base de datos (sqlite3) 
+
+TAREA 3
+
+A partir del ejercicio desafío de la unidad anterior cree una aplicación que permita realizar un alta de registros en un archivo de texto (.txt)

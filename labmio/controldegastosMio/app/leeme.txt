@@ -1,0 +1,36 @@
+Control de gastos
+
+Esta aplicación apuntada a uso personal permite llevar un control de gastos desglosado por mes.
+La app se basa en el concepto de "operaciones". Una operación es toda transaccion que el usuario cargue en la base de datos, y cada una está asociada a un gasto.
+
+Altas:
+Para dar de alta una operacion (cargar en la base de datos de un mes en particular) se debe primero seleccionar el mes en el panel izquierdo.
+Luego presionar el boton AGREGAR del menú de acciones.
+Finalmente se requerirá ingresar el concepto, la cantidad y el costo unitario de aquello por lo que se desee calcular el gasto total. Dentro del submenu "Agregar", se pueden utilizar las teclas TAB para navegar por los campos y la tecla ENTER para cargar la operación.
+
+Bajas:
+Para eliminar una operación se debe seleccionar del listado la fila o filas a eliminar, ya que es posible realizar eliminación múltiple.
+Luego presionar el boton "Eliminar" del menu de acciones.
+Finalmente se solicitará confirmar la eliminación para proceder.
+
+Modificaciones:
+Para editar una operación se debe seleccionar del listado la fila a editar. Tener en cuenta que no es posible realizar edicion en masa.
+Luego presionar el boton "Editar" del menu de acciones.
+Dentro de la barra del menu de acciones, ahora se mostrarán los campos concepto, cantidad y costo unitario, con la información de la fila que se encuentre seleccionada.
+Modificar los datos a conveniencia y finalizar presionando el boton OK o la tecla ENTER.
+Es importante tener en cuenta que para esta acción no se solicitará confirmar la operación.
+
+Consultas:
+Es posible consultar la data en la vista de la tabla. Si la tabla contiene muchas filas, se puede desplazar por ella mediante la rueda del mouse o la barra de desplazamiento hacia la derecha.
+
+Reiniciar y Formatear:
+La diferencia entre estos dos botones presentes en el menú de acciones es que el botón "Reiniciar" elimina toda la información del mes actualmente seleccionado en la app, mientras que la opción "Formatear" elimina todas las operaciones de todos los meses.
+En ambos casos se solicitará confirmar la acción.
+
+Estadísticas:
+Es posible revisar estadísticas cuantitativas tanto de cantidad de operaciones cargadas en cada mes, como de los gastos totales que representan dichas operaciones, también por mes.
+
+Validación de campos:
+Los campos dentro del submenu "Agregar" y "Editar" poseen validaciones mediante el uso de RegEx, es decir, no se permitirá cargar caracteres alfabéticos dentro de los campos que requieran números, como así tampoco será posible intentar la carga de campos vacíos.
+
+Programa creado por Christian Sanchez - UTN
